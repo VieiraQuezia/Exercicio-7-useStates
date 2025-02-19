@@ -22,10 +22,10 @@ function App() {
 <Cabecalho/>
     <aside>
     <article className="blocos">
-        <Usuarios nome="Guilherme G. Santana" img={guilherme} descricao="Guilherme é uma pessoa dedicada e muito inteligente"/>
-        <Usuarios nome="Hayeska L. A. Machado" img={hayeska} descricao="Hayeska é uma pessoa muito linda e incrível"/>
-        <Usuarios nome="Leonardo M. Vicente" img={leonardo} descricao="Leonardo é uma pessoa muito inteligente e querido"/>
-        <Usuarios nome="Quezia A. Vieira" img={quezia} descricao="Quezia é uma pessoa maravilhosa e muito carismática"/>
+        <Usuarios nome="Guilherme G. Santana" img={guilherme} descricao="É uma pessoa dedicada e muito inteligente"/>
+        <Usuarios nome="Hayeska L. A. Machado" img={hayeska} descricao="É uma pessoa muito linda e incrível"/>
+        <Usuarios nome="Leonardo M. Vicente" img={leonardo} descricao="É uma pessoa muito inteligente e querido"/>
+        <Usuarios nome="Quezia A. Vieira" img={quezia} descricao="É uma pessoa maravilhosa e muito carismática"/>
       </article>
 
 

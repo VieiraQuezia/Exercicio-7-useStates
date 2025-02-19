@@ -8,7 +8,7 @@ function cabecalho(){
         <>
         <header>
             
-       <h1> DESAFIO 1 de PROPS - REACT</h1>
+       <h1>Exercício 7 - Cartão de Usuário Dinâmico</h1>
         <img src={logo} className="logo react" alt="React logo" />
        
     </header>

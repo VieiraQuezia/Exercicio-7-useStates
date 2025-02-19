@@ -9,7 +9,6 @@ import gmail from './assets/gmail.png'
 
 
 import Usuarios from "./components/Usuarios.jsx";
-import Lado from "./components/lado";
 import Cabecalho from "./components/header.jsx";
 import Rodape from './components/Footer.jsx'
 
@@ -23,14 +22,13 @@ function App() {
 <Cabecalho/>
     <aside>
     <article className="blocos">
-        <Usuarios nome="Guilherme G. Santana" img={guilherme} hobby="Sair com a namorada"/>
-        <Usuarios nome="Hayeska L. A. Machado" img={hayeska} hobby="Jogar vôlei"/>
-        <Usuarios nome="Leonardo M. Vicente" img={leonardo} hobby="Tocar piano"/>
-        <Usuarios nome="Quezia A. Vieira" img={quezia} hobby="Jogar vôlei"/>
+        <Usuarios nome="Guilherme G. Santana" img={guilherme} descricao="Sair com a namorada"/>
+        <Usuarios nome="Hayeska L. A. Machado" img={hayeska} descricao="Jogar vôlei"/>
+        <Usuarios nome="Leonardo M. Vicente" img={leonardo} descricao="Tocar piano"/>
+        <Usuarios nome="Quezia A. Vieira" img={quezia} descricao="Jogar vôlei"/>
       </article>
 
 
-      <Lado val1='Perseverança' val2='Amizade' val3='Responsabilidade'/>
     
       </aside>
 

@@ -9,7 +9,7 @@ function perfil(props) {
     
           <h2>{props.nome}</h2>
           <img className="imagem" src={props.img} />
-          <h3>Descrição:<p>{props.descricao}</p></h3>
+          <h3>Hobby:<p>{props.hobby}</p></h3>
           </nav>
     </>
   );

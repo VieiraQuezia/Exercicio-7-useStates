@@ -1,0 +1,57 @@
+.blocos{
+  display: flex;
+      justify-content: center;
+      justify-content: space-between;
+  
+    margin: auto;
+    text-align: center;
+       
+    
+    }
+    
+    .bloco{
+  margin: 2%;
+      
+      background-color: #ffffff;
+    
+      font-size: 80%;
+      color: #bfbbc5;
+      width: 30%;
+      height: 30%;
+    
+      
+    
+       transition: all .5s ease;
+    
+      h2{
+          padding: 3% 0% 3%;
+         text-align: center;
+         font-size: 1.6vw;
+    
+      }
+      h3{
+          margin-left: 10%;
+          text-align: left;
+    
+      }
+    
+      p{
+          margin-bottom: 10%;
+          text-align: center;
+    font-size: 120%;
+    
+      }
+     
+    }
+    
+    .imagem{
+      width: 40%;
+      height: 40%;
+    padding: 5%;
+    }
+  
+    
+    .bloco:hover{
+    
+    opacity: 0.7;
+    }

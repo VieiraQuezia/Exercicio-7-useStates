@@ -1,0 +1,18 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    p{
+        padding-right: 1%;
+    }
+    img{
+       width: 2%;
+       height: 2%;
+       margin: 1%;
+    }
+}

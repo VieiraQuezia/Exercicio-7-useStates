@@ -19,7 +19,8 @@
       width: 20%;
       height: 30%;
       align-items: center;
-      
+      border: 2px solid black;
+      border-radius: 10px;
     
        transition: all .5s ease;
     
@@ -54,5 +55,7 @@
     
     .bloco:hover{
     
-    margin-bottom: 2%;   
+      box-shadow: 7px 7px #0b0a0b;;
+
+      transform: translateY(-5px);  
    }

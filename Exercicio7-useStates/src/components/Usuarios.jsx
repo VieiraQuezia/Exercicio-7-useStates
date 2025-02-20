@@ -9,6 +9,7 @@ const [seguir, setSeguir] = useState('Seguir')
 
 const mudarTema = () => {setTema(!tema);
   setSeguir('Seguindo')
+
   setTema(true)
 
   if (seguir === 'Seguindo') {
@@ -31,7 +32,8 @@ return (
           <h2>{props.nome}</h2>
           <img className="imagem" src={props.img} />
           <h3>Descrição:<p>{props.descricao}</p></h3>
-          <button className={tema ? "seguindo" : "seguir"} onClick={mudarTema}>{seguir}</button>
+
+          <button className={tema ? "seguindo" : "seguir"} onClick={mudarTema}>  {seguir}  </button>
 
 
 

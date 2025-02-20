@@ -4,8 +4,8 @@ import '../components/botao.css'
 import "./Usuarios.css";
 
 function perfil(props) {
-  const [tema, setTema] = useState(false);
-const [seguir, setSeguir] = useState('seguir')
+const [tema, setTema] = useState(false);
+const [seguir, setSeguir] = useState('Seguir')
 
 const mudarTema = () => {setTema(!tema);
   setSeguir('Seguindo')
@@ -13,10 +13,12 @@ const mudarTema = () => {setTema(!tema);
 
   if (seguir === 'Seguindo') {
     setSeguir('Seguir')
+    setTema(false)
   }
   else{
 
-    setSeguir('Seguindo')  
+    setSeguir('Seguindo') 
+    setTema(true) 
   }
 
 }
@@ -29,13 +31,12 @@ return (
           <h2>{props.nome}</h2>
           <img className="imagem" src={props.img} />
           <h3>Descrição:<p>{props.descricao}</p></h3>
-          <button onClick={mudarTema}>{seguir}</button>
-
-          <div className={tema ? "vermelho" : "azul"}>
+          <button className={tema ? "seguindo" : "seguir"} onClick={mudarTema}>{seguir}</button>
 
 
 
-</div>
+
+
           </nav>
 
         

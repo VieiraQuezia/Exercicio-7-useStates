@@ -1,0 +1,15 @@
+.seguir{
+    background-color: rgb(22, 112, 203);
+    color: white;
+    padding: 3%;
+    border:  5px solid;
+    border-radius: 10px;
+}
+
+.seguindo{
+    background-color: rgb(90, 86, 86);
+    color: white;
+    padding: 3%;
+    border:  5px solid;
+    border-radius: 10px;
+}
